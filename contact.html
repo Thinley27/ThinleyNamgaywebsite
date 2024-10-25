@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druk Blomster</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+     <!-- Header Section -- -->
+     <nav class="navbar navbar-expand-lg navbar-no-margin" id="main-nav-container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img id="logo" src="blomstar.png" alt="Druk Blomster Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navigation-items">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                   <li>
+               
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                       
+                   </li>
+                   <li>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                   </li>
+                
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- Header Ends -->
+
+    <div id="contactuswholediv">
+        <div id="getintouchdiv">
+            <form action="" id="getintouchform">
+                <h2>Get in Touch</h2>
+                <p>Feel free to drop us a line below</p>
+                <label>Name:</label><br/>
+                <input type="text" placeholder="Enter your name" class="contactusinput" id="name"><br/>
+                <label>Email ID:</label><br/>
+                <input type="text" placeholder="Enter your Email ID" class="contactusinput" id="id"><br/>
+                <label>Contact no:</label><br/>
+                <input type="text" placeholder="Type your phone no" class="contactusinput" id="contactno"><br/>
+                <button onclick="myclick()" id="contactbtn">Submit!</button>
+            </form>
+             
+            <div id="contactusdiv">
+                <form action="" id="contactusform"> 
+                    <h2>Contact us</h2>
+                    <h4><i class="fa-solid fa-location-dot"></i>&nbsp Trashigang, Yonpula</h4>
+                    <h4><i class="fa-solid fa-envelope"></i>&nbsp drukblomster@gmail.com</h4>
+                    <h4><i class="fa-solid fa-phone"></i>&nbsp +975 17452096</h4>
+                    <h5 id="contactusformiconthree">
+                        <a href="https://facebook.com/member4" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/hp" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+                    </h5>
+                </form>
+            </div> 
+            </div>
+        </div>
+    
+        <div id="ketee">
+            <iframe src="https://mapcarta.com/N4747260607" frameborder="1" id="map"></iframe>
+        </div>
+    </div>
+
+     <!-- Footer Section -->
+     <footer class="footer" >
+        <div class="footer-container">
+            <div class="footer-logo" data-aos="flip-up" href="index.html">
+                <img src="blomstar.png" style="height: 100px; width: 100px;" alt="">
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-location-pin"></i>&nbsp Trashigang</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i>&nbsp 17657042</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i>&nbsp thinleynamgay541@gmail.com</a></li>
+
+
+                </ul>
+
+
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="https://facebook.com/member4" target="_blank"><i class="fa-brands fa-facebook" style="color: #010d15;"></i></a>
+                    <a href="https://instagram.com/member4" target="_blank"><i class="fa-brands fa-instagram" style="color: #010d15;"></i></i></a>
+                    <a href="https://twitter.com/member4" target="_blank"><i class="fa-brands fa-square-x-twitter"  style="color: #010d15;"></i></a>
+                    <a href="https://linkedin.com/member4" target="_blank"><i class="fa-brands fa-linkedin"  style="color: #010d15;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            
+            &copy; 2024 Druk Blomster. All rights reserved.
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="contact.js"></script>
+</body>
+</html>
